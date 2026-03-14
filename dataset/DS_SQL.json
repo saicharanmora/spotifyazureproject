@@ -5,17 +5,6 @@
 			"referenceName": "LS_ADF_SQL",
 			"type": "LinkedServiceReference"
 		},
-		"parameters": {
-			"schema": {
-				"type": "string"
-			},
-			"table": {
-				"type": "string"
-			},
-			"cdc_col": {
-				"type": "string"
-			}
-		},
 		"annotations": [],
 		"type": "AzureSqlTable",
 		"schema": [],
