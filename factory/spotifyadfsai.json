@@ -1,0 +1,9 @@
+{
+	"name": "spotifyadfsai",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e19f4b72-ec62-4a46-a173-33a6f8f8cf09",
+		"tenantId": "4aa6ee2c-b6ac-4d18-9705-788ac7383356"
+	}
+}
