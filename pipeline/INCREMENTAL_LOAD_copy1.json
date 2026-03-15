@@ -326,7 +326,8 @@
 					{
 						"activity": "looping_tables",
 						"dependencyConditions": [
-							"Succeeded"
+							"Failed",
+							"Skipped"
 						]
 					}
 				],
