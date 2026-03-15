@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "spotifyadfsai"
+		},
+		"LS_ADF_DATALAKE_accountKey": {
+			"value": ""
+		},
+		"LS_ADF_SQL_password": {
+			"value": ""
+		},
+		"LS_ADF_DATALAKE_properties_typeProperties_url": {
+			"value": "https://spotifydlsai.dfs.core.windows.net/"
+		},
+		"LS_ADF_SQL_properties_typeProperties_server": {
+			"value": "spotifysqlserversai.database.windows.net"
+		},
+		"LS_ADF_SQL_properties_typeProperties_database": {
+			"value": "spotifysqldbsai"
+		},
+		"LS_ADF_SQL_properties_typeProperties_userName": {
+			"value": "spotifyprojectadmin"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
