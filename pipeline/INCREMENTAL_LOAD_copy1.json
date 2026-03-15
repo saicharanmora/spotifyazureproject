@@ -8,7 +8,11 @@
 				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
-					"isSequential": false,
+					"items": {
+						"value": "@pipeline().parameters.loop_input",
+						"type": "Expression"
+					},
+					"isSequential": true,
 					"activities": [
 						{
 							"name": "lp_olddate",
@@ -257,7 +261,10 @@
 												"type": "DatasetReference",
 												"parameters": {
 													"container": "bronze",
-													"folder": "time_stamp",
+													"folder": {
+														"value": "@item().table",
+														"type": "Expression"
+													},
 													"file": "empty.json"
 												}
 											}
@@ -268,7 +275,10 @@
 												"type": "DatasetReference",
 												"parameters": {
 													"container": "bronze",
-													"folder": "time_stamp",
+													"folder": {
+														"value": "@item().table",
+														"type": "Expression"
+													},
 													"file": "cdc.json"
 												}
 											}
